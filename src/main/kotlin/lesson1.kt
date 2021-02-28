@@ -34,6 +34,7 @@ fun main()
         tepmerature < -5 -> "Холодно"
         tepmerature <= 5 -> "Около нуля"
         else -> "Жарко как в пустыне"
+
     }
     print(condition)
 */
