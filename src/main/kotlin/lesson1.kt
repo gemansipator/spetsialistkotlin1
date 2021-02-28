@@ -15,5 +15,5 @@ const val DEBUG = true
 
 fun main()
 {
-    print(firstName)
+    print(age)
 }
