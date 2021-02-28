@@ -18,7 +18,7 @@ fun main()
     // firstName = "Dasha" - так нельзя изза того что val
     age = 26
 
-    //age = "twenty" - так нельзя потому что age это Int
+    //age = "twenty" - так нельзя, потому что age это Int
 /*
     val tepmerature = 26
     val condition = if(tepmerature < -5)
