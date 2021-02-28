@@ -1,6 +1,6 @@
 # Ignore gradle files
-.gradle/
-build/
+/.gradle/
+/build/
 
 /.idea/
 # Compiled class file
