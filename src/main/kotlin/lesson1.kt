@@ -15,5 +15,9 @@ const val DEBUG = true
 
 fun main()
 {
-    print(age)
+    // firstName = "Dasha" - так нельзя изза того что val
+    age = 26
+
+    //age = "twenty" - так нельзя потому что age это Int
+    print("Hello, world!")
 }
