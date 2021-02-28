@@ -27,6 +27,7 @@ fun main()
         "Около нуля"
     else
         "Жарко как в пустыне"
+
 */
     /*
     val tepmerature = 5
