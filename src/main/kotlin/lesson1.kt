@@ -23,7 +23,10 @@ fun main()
     val tepmerature = 26
     val condition = if(tepmerature < -5)
         "Холодно"
-    else "Жарко как в пустыне"
+    else if(tepmerature < 5)
+        "Около нуля"
+    else
+        "Жарко как в пустыне"
 
     print(condition)
 }
