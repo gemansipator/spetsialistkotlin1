@@ -21,7 +21,8 @@ fun main()
     //age = "twenty" - так нельзя потому что age это Int
 
     val tepmerature = 26
-    val condition = if(tepmerature < -5) "Холодно"
+    val condition = if(tepmerature < -5)
+        "Холодно"
     else "Жарко как в пустыне"
 
     print(condition)
