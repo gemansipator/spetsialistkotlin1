@@ -46,7 +46,7 @@ fun main()
     println("Length is " + position?.length)  //знак вопроса делает так
 // что если position не равен НУЛЮ то выполняется .length
 // (вычисление количества знаков)...
-
+    println("Length is " + position?.length ?: 0) // если все равно nuul то выводит ноль
 
 
 }
