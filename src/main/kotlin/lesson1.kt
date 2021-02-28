@@ -28,13 +28,25 @@ fun main()
     else
         "Жарко как в пустыне"
 */
-    val tepmerature = 26
+    /*
+    val tepmerature = 5
     val condition = when {
         tepmerature < -5 -> "Холодно"
-        tepmerature < 5 -> "Около нуля"
+        tepmerature <= 5 -> "Около нуля"
         else -> "Жарко как в пустыне"
     }
-
-
     print(condition)
+*/
+    // nullable
+    var position : String? = "programmer"
+    position = null
+    if (position != null)
+        println("Length is " + position.length)
+
+    println("Length is " + position?.length)  //знак вопроса делает так
+// что если position не равен НУЛЮ то выполняется .length
+// (вычисление количества знаков)
+
+
+
 }
