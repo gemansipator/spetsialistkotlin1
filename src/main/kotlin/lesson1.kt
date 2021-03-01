@@ -8,15 +8,15 @@
 вложенный комментарий
  */
  */
-val firstName : String = "Masha"
-var LastName = "Ivanova"
-var age = 25
-const val DEBUG = true
+//val firstName : String = "Masha"
+//var LastName = "Ivanova"
+//var age = 25
+//const val DEBUG = true
 
 fun main()
 {
     // firstName = "Dasha" - так нельзя изза того что val
-    age = 26
+    //age = 26
 
     //age = "twenty" - так нельзя, потому что age это Int
 /*
@@ -40,17 +40,22 @@ fun main()
     print(condition)
 */
     // nullable
-    var position : String? = "programmer"
-        position = null
-    if (position != null)
-        println("Length is " + position.length)
-    println("Length is " + position?.length)
-
-    //println("Length is " + position?.length)  //знак вопроса делает так
-// что если position не равен НУЛЮ то выполняется .length
-// (вычисление количества знаков)...
-    println(position?.length ?: 0) // если выполняется левая
+//    var position : String? = "programmer"
+//        position = null
+//    if (position != null)
+//        println("Length is " + position.length)
+//    println("Length is " + position?.length)
+//
+//    //println("Length is " + position?.length)  //знак вопроса делает так
+//// что если position не равен НУЛЮ то выполняется .length
+//// (вычисление количества знаков)...
+//    println(position?.length ?: 0) // если выполняется левая
 // сторона от последнего знака вопроса то есть все равно nuul то выводит ноль
+    val obj : Any = "15"
 
+    if (obj is String) // smart cast
+    {
+        println("Len is " + obj.length)
+    }
 
 }
