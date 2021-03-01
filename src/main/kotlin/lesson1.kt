@@ -44,11 +44,13 @@ fun main()
         position = null
     if (position != null)
         println("Length is " + position.length)
+    println("Length is " + position?.length)
 
     //println("Length is " + position?.length)  //знак вопроса делает так
 // что если position не равен НУЛЮ то выполняется .length
 // (вычисление количества знаков)...
-    println(position?.length ?: 0) // если все равно nuul то выводит ноль
+    println(position?.length ?: 0) // если выполняется левая
+// сторона от последнего знака вопроса то есть все равно nuul то выводит ноль
 
 
 }
