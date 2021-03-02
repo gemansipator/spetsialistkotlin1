@@ -10,15 +10,15 @@
  */
 //val firstName : String = "Masha"
 //var LastName = "Ivanova"
-//var age = 25
+var age = 25
 //const val DEBUG = true
 
 fun main()
 {
-    // firstName = "Dasha" - так нельзя изза того что val
-    //age = 26
+     //firstName = "Dasha" - так нельзя изза того что val
+    age = 26
 
-    //age = "twenty" - так нельзя, потому что age это Int
+    // age = "twenty" // - так нельзя, потому что age это Int
 /*
     val tepmerature = 26
     val condition = if(tepmerature < -5)
@@ -57,6 +57,13 @@ fun main()
     {
         println("Len is " + obj.length)
     }
-    val x: String  = obj as String  // переменная x типа стринг присвоить obg приведенное к типу стринг
+    val x: String  = obj as String  // unsafe cast  переменная x типа стринг присвоить obg приведенное к типу стринг
+
+    // val z: String = age as String    // выскакивает ошибка ClassCastException
+
+    val k: String? = age as? String   //безопасное приведение типов. Если через as? тип
+    // переменной не переходит в String то благодаря знаку ? возвращается null
+    print(k)
+
 
 }
