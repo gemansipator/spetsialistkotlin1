@@ -57,5 +57,6 @@ fun main()
     {
         println("Len is " + obj.length)
     }
+    val x: String  = obj as String  // переменная x типа стринг присвоить obg приведенное к типу стринг
 
 }
