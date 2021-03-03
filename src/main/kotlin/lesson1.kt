@@ -15,7 +15,7 @@ var age = 25
 
 fun main()
 {
-     //firstName = "Dasha" - так нельзя изза того что val
+    //firstName = "Dasha" - так нельзя изза того что val
     age = 26
 
     // age = "twenty" // - так нельзя, потому что age это Int
